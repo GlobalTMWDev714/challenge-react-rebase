@@ -9,6 +9,6 @@ test('renders My really cool blog site logo', () => {
 
 test('renders Biology Today article', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Biology Today:/i);
+  const linkElement = screen.getByText(/Biology Today: Auto Review:/i);
   expect(linkElement).toBeInTheDocument();
 });
